@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+rm -rf full-listing
+mkdir -p full-listing/i386
+mkdir -p full-listing/amd64
+mkdir -p full-listing/all
+cd full-listing/i386
+find ../../pool -name "*i386.deb" -exec ln -s '{}' \;
+cd ../amd64
+find ../../pool -name "*amd64.deb" -exec ln -s '{}' \;
+cd ../all
+find ../../pool -name "*all.deb" -exec ln -s '{}' \;
+

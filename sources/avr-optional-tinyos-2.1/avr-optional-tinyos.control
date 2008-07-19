@@ -1,0 +1,11 @@
+Package: avr-optional-tinyos
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: avr-tinyos, avrarice-tinyos, avr-insight-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: Dummy package to pull in all optional avr-related packages for tinyos
+
+
+

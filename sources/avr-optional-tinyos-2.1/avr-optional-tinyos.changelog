@@ -1,0 +1,7 @@
+avr-optional-tinyos (2.1) unstable; urgency=low
+
+  * Initial release of avr-optional-tinyos as an ubuntu package
+  * Dummy package to pull in all optional avr-related packages for tinyos
+
+ -- klueska <klueska@cs.stanford.edu> @date@
+

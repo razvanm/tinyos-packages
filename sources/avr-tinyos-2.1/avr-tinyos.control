@@ -1,0 +1,11 @@
+Package: avr-tinyos
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: avr-tinyos-base, avr-binutils-tinyos, avr-gcc-tinyos, avr-libc-tinyos, avrdude-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: Dummy package to pull in all avr-related packages for tinyos
+
+
+

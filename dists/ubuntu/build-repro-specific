@@ -1,0 +1,10 @@
+reprepro remove gutsy $1
+reprepro remove feisty $1
+reprepro remove hardy $1
+reprepro remove edgy $1
+
+find ../../packages -type f -name "$1*" -exec reprepro includedeb gutsy '{}' \;
+find ../../packages -type f -name "$1*" -exec reprepro includedeb feisty '{}' \;
+find ../../packages -type f -name "$1*" -exec reprepro includedeb hardy '{}' \;
+find ../../packages -type f -name "$1*" -exec reprepro includedeb edgy '{}' \;
+

@@ -1,0 +1,11 @@
+Package: nesc
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: tinyos-base, perl, graphviz, sun-java5-jre|sun-java6-jre, sun-java5-bin|sun-java6-bin, sun-java5-jdk|sun-java6-jdk
+Conflicts: gcj
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: This is the nesC compiler used to compile TinyOS applications
+
+

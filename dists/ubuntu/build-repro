@@ -1,0 +1,11 @@
+DISTS="gutsy feisty hardy edgy"
+
+rm -rf db dists pool
+for i in $DISTS;							\
+do									\
+  find ../../packages -type f -exec reprepro includedeb $i '{}' \;;	\
+done
+./generate-listing
+
+
+

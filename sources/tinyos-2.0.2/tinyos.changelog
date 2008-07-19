@@ -1,0 +1,7 @@
+msp430-tinyos-base (2.1) unstable; urgency=low
+
+  * Initial release of msp430-tinyos-base as an ubuntu package
+  * Dummy package required by all msp430-tinyos tools.  Removing this package will remove all msp430-tinyos related packages.
+
+ -- klueska <klueska@cs.stanford.edu> @date@
+

@@ -1,0 +1,10 @@
+Package: avr-libc-tinyos
+Version: @version@
+Architecture: @architecture@
+Depends: avr-gcc-tinyos, avr-tinyos-base
+Recommends: avr-tinyos, avr-optional-tinyos
+Maintainer: klueska <klueska@cs.stanford.edu>
+Priority: optional
+Section: devel
+Description: C library for the AVR platform.
+

@@ -1,0 +1,25 @@
+#! /usr/bin/env bash
+
+cat >> ~/.bashrc <<"EOF"
+####### TINYOS PATH SETUP BEGIN ######
+###### DO NOT EDIT THIS SECTION ######
+# SECTION ADDED BY tinyos-base package
+# All lines between the top and bottom
+# of this section will be deleted when
+# this package is removed.  
+# DO NOT EDIT these top and bottom 
+# lines
+#
+# Here we setup the paths for the 
+# tinyos tools as they are installed
+# in a non-standard place
+
+if [ -n $MANPATH ]
+then
+        export MANPATH=$MANPATH:/@install_dir@/man:/@install_dir@/share/man
+else
+        export MANPATH=/@install_dir@/man:/@install_dir@/share/man
+fi
+export PATH=$PATH:/@install_dir@/bin
+######## TINYOS PATH SETUP END #######
+EOF

@@ -1,0 +1,7 @@
+msp430-tinyos (2.1) unstable; urgency=low
+
+  * Initial release of msp430-tinyos as an ubuntu package
+  * Dummy package to pull in all required packages for msp430 support in tinyos.
+
+ -- klueska <klueska@cs.stanford.edu> @date@
+

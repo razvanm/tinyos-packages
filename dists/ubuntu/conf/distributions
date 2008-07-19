@@ -1,0 +1,27 @@
+Origin: tinyos.stanford.edu
+Label: tinyos.stanford.edu
+Codename: edgy
+Architectures: i386 amd64
+Components: main
+Description: TinyOS edgy repository
+
+Origin: tinyos.stanford.edu
+Label: tinyos.stanford.edu
+Codename: feisty
+Architectures: i386 amd64
+Components: main
+Description: TinyOS feisty repository
+
+Origin: tinyos.stanford.edu
+Label: tinyos.stanford.edu
+Codename: gutsy
+Architectures: i386 amd64
+Components: main
+Description: TinyOS gutsy repository
+
+Origin: tinyos.stanford.edu
+Label: tinyos.stanford.edu
+Codename: hardy
+Architectures: i386 amd64
+Components: main
+Description: TinyOS hardy repository

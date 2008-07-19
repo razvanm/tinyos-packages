@@ -1,0 +1,9 @@
+Package: deputy-tinyos
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: tinyos-base, tinyos-tools, nesc
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: This is the Deputy compiler used for Safe TinyOS applications.
+

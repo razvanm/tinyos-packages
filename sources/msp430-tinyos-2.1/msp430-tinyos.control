@@ -1,0 +1,11 @@
+Package: msp430-tinyos
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: msp430-tinyos-base, msp430-binutils-tinyos, msp430-gcc-tinyos, msp430-libc-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: Dummy package to pull in all msp430-related packages for tinyos
+
+
+

@@ -1,0 +1,25 @@
+Package: msp430-libc-tinyos
+Version: @version@
+Architecture: @architecture@
+Depends: msp430-tinyos-base, msp430-gcc-tinyos
+Recommends: msp430-tinyos, msp430-optional-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Priority: optional
+Section: devel
+Description: MSP430TOOLS -- Libc
+ Libc is a collection of the C library functions, including:
+    * standard C library
+    * SFR read and write access
+    * I/O definitions and access macros
+    * bit-field access to ports
+    * MSP430 interrupt and signal handling
+    * Functions for long jumps
+    * String manipulation functions
+    * Error handling
+    * size/speed optimized FP library (ieee-754 32-bit complaint)
+ .
+ Install Libc if you need to perform any of these types of actions on
+ MSP430 C source files.  Most programmers will want to install Libc.
+ .
+ Development of msp430-libc is part of MPCGCC project. You can found it at:
+ http://mspgcc.sourceforge.net

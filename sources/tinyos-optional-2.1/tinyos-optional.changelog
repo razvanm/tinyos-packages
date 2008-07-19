@@ -1,0 +1,7 @@
+tinyos-optional (2.1) unstable; urgency=low
+
+  * Initial release of tinyos-optionsl as an ubuntu package
+  * Dummy package to pull in all optional tinyos-related packages
+
+ -- klueska <klueska@cs.stanford.edu> @date@
+

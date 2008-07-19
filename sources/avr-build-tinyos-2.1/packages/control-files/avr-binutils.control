@@ -1,0 +1,15 @@
+Package: avr-binutils-tinyos
+Version: @version@
+Architecture: @architecture@
+Depends: avr-tinyos-base
+Recommends: avr-tinyos, avr-optional-tinyos
+Maintainer: klueska <klueska@cs.stanford.edu>
+Priority: optional
+Section: devel
+Description: GNU binutils for the avr platform
+ The GNU Binutils are a collection of binary tools. The main tools are
+  ld and as. This particular collection  contains a patched as for
+   use with TinyOS 1.2+ on the avr platform. The patch allows
+    NesC to use the $ character within symbols to separate component
+     names and variable names.
+

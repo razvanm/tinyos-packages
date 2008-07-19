@@ -1,0 +1,12 @@
+Package: msp430-tinyos-base
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: tinyos-base
+Conflicts: msp430tools-base, msp430tools-base-tinyos, msp430tools-binutils, msp430tools-binutils-tinyos, msp430tools-gcc, msp430tools-gcc-tinyos, msp430tools-gdb, msp430tools-gdb-tinyos, msp430tools-jtag-lib, msp430tools-jtag-lib-tinyos, msp430tools-libc, msp430tools-libc-tinyos, msp430tools-python-tools, msp430tools-python-tools-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: Dummy package required by all msp430-tinyos tools.  Removing this package will remove all msp430-tinyos related packages.
+
+
+

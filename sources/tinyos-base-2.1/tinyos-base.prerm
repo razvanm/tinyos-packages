@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+perl -i.old -ne 'print unless /TINYOS PATH SETUP BEGIN/ .. /TINYOS PATH SETUP END/' ~/.bashrc
+

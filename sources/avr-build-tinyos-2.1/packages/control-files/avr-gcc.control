@@ -1,0 +1,10 @@
+Package: avr-gcc-tinyos
+Version: @version@
+Architecture: @architecture@
+Depends: avr-binutils-tinyos, avr-tinyos-base
+Recommends: avr-tinyos, avr-optional-tinyos
+Maintainer: klueska <klueska@cs.stanford.edu>
+Priority: optional
+Section: devel
+Description: gcc compiled for the AVR platform with TinyOS patches
+

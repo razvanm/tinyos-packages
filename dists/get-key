@@ -1,0 +1,4 @@
+sudo apt-get install gnupg;
+gpg --keyserver-options honor-http-proxy --keyserver subkeys.pgp.net --recv-keys A056A9EA
+gpg -a --output /tmp/pub.asc --export A056A9EA;
+sudo apt-key add /tmp/pub.asc && rm /tmp/pub.asc;

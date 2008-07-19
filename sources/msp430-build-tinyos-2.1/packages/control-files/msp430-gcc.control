@@ -1,0 +1,41 @@
+Package: msp430-gcc-tinyos
+Version: @version@
+Architecture: @architecture@
+Depends: msp430-tinyos-base, msp430-binutils-tinyos
+Recommends: msp430-tinyos, msp430-optional-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Priority: optional
+Section: devel
+Description: MSP430TOOLS -- GNU CC
+ The MoteIV patch has been applied, so boomerang apps can be compiled
+ .
+ GCC is a collection of C compiler utilities, including:
+    * msp430-gcc: GNU project C compiler for MSP430 processor serie
+    * msp430-cpp: GNU C compatible compiler preprocessor
+ .
+ Install GCC if you need to perform any of these types of actions on
+ MSP430 C source files. Most programmers will want to install GCC.
+ .
+ Supported processors:
+    * msp430x110  msp430x112
+    * msp430x1101 msp430x1111
+    * msp430x1121 msp430x1122 msp430x1132
+    * msp430x122  msp430x123
+    * msp430x1222 msp430x1232
+    * msp430x133  msp430x135
+    * msp430x1331 msp430x1351
+    * msp430x147  msp430x148  msp430x149
+    * msp430x1471 msp430x1481 msp430x1491
+    * msp430x155  msp430x156  msp430x157
+    * msp430x167  msp430x168  msp430x169  msp430x1610 msp430x1611
+    * msp430x311  msp430x312  msp430x313  msp430x314  msp430x315
+    * msp430x323  msp430x325
+    * msp430x336  msp430x337
+    * msp430x412  msp430x413
+    * msp430xE423 msp430xE425 msp430xE427
+    * msp430xW423 msp430xW425 msp430xW427
+    * msp430x435  msp430x436  msp430x437
+    * msp430x447  msp430x448  msp430x449
+ .
+ Development of gcc is part of MPCGCC project. You can found it at:
+ http://mspgcc.sourceforge.net

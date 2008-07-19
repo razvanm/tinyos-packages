@@ -1,0 +1,11 @@
+Package: avrdude-tinyos
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: avr-tinyos-base
+Recommends: avr-tinyos, avr-optional-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: AVRDUDE is an open source utility to download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers using the in-system programming technique (ISP)
+
+

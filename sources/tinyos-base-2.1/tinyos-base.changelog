@@ -1,0 +1,7 @@
+tinyos-base (2.1) unstable; urgency=low
+
+  * Initial release of tinyos-base as an ubuntu package
+  * Dummy package required by all tinyos realated packages.  Removing this package will uninstall the entire set of packages installed for use with tinyos.
+
+ -- klueska <klueska@cs.stanford.edu> @date@
+
