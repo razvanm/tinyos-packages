@@ -1,4 +1,4 @@
-Package: tinyos-2.1
+Package: tinyos-2.0.2
 Version: @version@
 Section: devel
 Priority: optional

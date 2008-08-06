@@ -13,7 +13,7 @@ package:
                             > debian/DEBIAN/control;                                	\
 	cat $(NAME).changelog | sed 's/@date@/'"`date -R`"'/g'                          \
                             >> debian/DEBIAN/changelog;                                 \
-	dpkg-deb --build debian ../../packages/$(NAME)-$(VERSION).deb; 
+	dpkg-deb --build debian ../../packages/$(ARCH_TYPE)/$(NAME)-$(VERSION).deb; 
 
 clean:
 	rm -rf debian
