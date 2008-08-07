@@ -1,0 +1,11 @@
+Package: tinyos-2.0.1
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: tinyos-required
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: The TinyOS operating system.
+
+
+
