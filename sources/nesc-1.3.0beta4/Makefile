@@ -1,4 +1,4 @@
-ARCH_TYPE ?= i386
+ARCH_TYPE:=$(shell dpkg-architecture -qDEB_HOST_ARCH)
 INSTALL_DIR ?= usr
 PACKAGES_TOP_DIR ?= ../../../packages/
 PACKAGES_DIR = $(PACKAGES_TOP_DIR)/$(ARCH_TYPE)

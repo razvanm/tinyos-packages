@@ -1,4 +1,4 @@
-ARCH_TYPE ?= i386
+ARCH_TYPE:=$(shell dpkg-architecture -qDEB_HOST_ARCH)
 INSTALL_DIR ?= usr
 
 AVRDUDE_NAME=avrdude

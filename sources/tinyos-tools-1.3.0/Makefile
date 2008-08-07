@@ -1,4 +1,4 @@
-ARCH_TYPE ?= i386
+ARCH_TYPE:=$(shell dpkg-architecture -qDEB_HOST_ARCH)
 INSTALL_DIR ?= usr
 PACKAGES_TOP_DIR ?= ../../../packages/
 PACKAGES_DIR = $(PACKAGES_TOP_DIR)/$(ARCH_TYPE)
@@ -9,7 +9,9 @@ CVS_TAG = HEAD
 
 all: download compile fix-paths package
 
-download:
+download: $(TOOLS_NAME)-$(TOOLS_VERSION)
+
+$(TOOLS_NAME)-$(TOOLS_VERSION):
 	cvs -d:pserver:anonymous@tinyos.cvs.sourceforge.net:/cvsroot/tinyos login
 	cvs -z3 -d:pserver:anonymous@tinyos.cvs.sourceforge.net:/cvsroot/tinyos co -P 	\
 		-d $(TOOLS_NAME)-$(TOOLS_VERSION) -r $(CVS_TAG) tinyos-2.x/tools
