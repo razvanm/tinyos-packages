@@ -32,6 +32,7 @@ package: do-copy
                               | sed 's/@version@/'$(VERSION)'/g'				\
                             >> $(FULL_NAME)/DEBIAN/changelog;
 	cat $(NAME).sh | sed 's/@prefix@/'$(INSTALL_DIR)'/g'                 \
+                       | sed 's/@version@/'$(VERSION)'/g'                 \
                             > $(FULL_NAME)/$(INSTALL_DIR)/$(FULL_NAME)/$(NAME).sh
 	dpkg-deb --build $(FULL_NAME) $(PACKAGES_DIR)/$(FULL_NAME).deb; 
 

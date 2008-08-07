@@ -3,7 +3,7 @@
 # variables needed by the tinyos 
 # make system
 
-echo "Setting up for TinyOS 2.x"
+echo "Setting up for TinyOS @version@"
 export TOSROOT=
 export TOSDIR=
 export MAKERULES=
