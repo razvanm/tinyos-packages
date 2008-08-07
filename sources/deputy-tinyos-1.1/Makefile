@@ -17,7 +17,7 @@ download:
 
 compile-it: 
 	tar -zxvf $(FULL_NAME).tar.gz
-	cd deputy-$(VERSION);					\
+	cd $(NAME)-$(VERSION);					\
 	patch -p0 < ../deputy.patch;				\
 	./configure --prefix=/$(INSTALL_DIR);			\
 	make;							\
@@ -38,5 +38,5 @@ clean:
 
 veryclean: clean
 	rm -rf $(NAME)-$(VERSION).tar.gz;
-	rm -rf deputy-$(VERSION)
+	rm -rf $(NAME)-$(VERSION)
 	rm -rf deputy.patch
