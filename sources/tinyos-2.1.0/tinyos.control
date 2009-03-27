@@ -1,9 +1,10 @@
-Package: tinyos-2.0.1
+Package: tinyos-2.1.0
 Version: @version@
 Section: devel
 Priority: optional
 Architecture: @architecture@
-Depends: tinyos-required
+Depends: tinyos-required-all|tinyos-required-msp430|tinyos-required-avr
+Provides: tinyos
 Maintainer: Kevin Klues <klueska@cs.stanford.edu>
 Description: The TinyOS operating system.
 

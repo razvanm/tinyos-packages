@@ -3,7 +3,7 @@ INSTALL_DIR ?= usr
 PACKAGES_TOP_DIR ?= ../../packages/
 PACKAGES_DIR = $(PACKAGES_TOP_DIR)/$(ARCH_TYPE)
 
-NAME = tinyos-required
+NAME = tinyos-required-all
 VERSION = 2.1
 
 all: package

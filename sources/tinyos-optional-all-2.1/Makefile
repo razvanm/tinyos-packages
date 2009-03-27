@@ -1,7 +1,7 @@
 ARCH_TYPE = all
 INSTALL_DIR ?= usr
 
-NAME = tinyos-optional
+NAME = tinyos-optional-all
 VERSION = 2.1
 
 all: package

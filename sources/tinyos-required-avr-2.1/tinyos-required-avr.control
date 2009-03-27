@@ -1,0 +1,11 @@
+Package: tinyos-required-avr
+Version: @version@
+Section: devel
+Priority: optional
+Architecture: @architecture@
+Depends: tinyos-base, avr-tinyos, nesc, tinyos-tools, deputy-tinyos
+Maintainer: Kevin Klues <klueska@cs.stanford.edu>
+Description: Dummy package to pull in all required packages for tinyos
+
+
+

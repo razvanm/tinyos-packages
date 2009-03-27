@@ -3,7 +3,7 @@ Version: @version@
 Section: devel
 Priority: optional
 Architecture: @architecture@
-Depends: msp430-tinyos, msp430-gdb-tinyos, msp430-jtag-tinyos
+Depends: msp430-tinyos
 Maintainer: Kevin Klues <klueska@cs.stanford.edu>
 Description: Dummy package to pull in all optional msp430-related packages for tinyos
 

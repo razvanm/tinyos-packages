@@ -1,9 +1,9 @@
-Package: tinyos-required
+Package: tinyos-required-msp430
 Version: @version@
 Section: devel
 Priority: optional
 Architecture: @architecture@
-Depends: tinyos-base, msp430-tinyos, avr-tinyos, nesc, tinyos-tools, deputy-tinyos
+Depends: tinyos-base, msp430-tinyos, nesc, tinyos-tools, deputy-tinyos
 Maintainer: Kevin Klues <klueska@cs.stanford.edu>
 Description: Dummy package to pull in all optional packages for tinyos
 

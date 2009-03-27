@@ -1,0 +1,3 @@
+*.deb
+dists/ubuntu/db/*
+dists/ubuntu/dists/*
