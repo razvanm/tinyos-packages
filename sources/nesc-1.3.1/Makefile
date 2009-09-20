@@ -16,7 +16,7 @@ compile: $(NESC_NAME)-$(NESC_VERSION).tar.gz
 	tar -zxvf $(NESC_NAME)-$(NESC_VERSION).tar.gz;							\
 	cd $(shell pwd)/$(NESC_NAME)-$(NESC_VERSION);							\
 	./configure --prefix=$(shell pwd)/$(NESC_NAME)-$(NESC_VERSION)/debian/$(INSTALL_DIR);		\
-	make; make install;										\
+	make; make install-strip;									\
 	echo $(shell pwd)/$(NESC_NAME)-$(NESC_VERSION)/debian;						\
 	find debian/$(INSTALL_DIR)/bin/ -type f -exec perl -i 						\
 		-pe's#$(shell pwd)/$(NESC_NAME)-$(NESC_VERSION)/debian##' '{}' \;;			\
