@@ -3,7 +3,7 @@ Version: @version@
 Section: devel
 Priority: optional
 Architecture: @architecture@
-Depends: perl
+Depends: perl, libc6-dev|libc-dev
 Recommends: tinyos-base, graphviz, sun-java5-jre|sun-java6-jre|openjdk-6-jdk, sun-java5-bin|sun-java6-bin, sun-java5-jdk|sun-java6-jdk|openjdk-6-jdk
 Conflicts: gcj
 Replaces: nesc
