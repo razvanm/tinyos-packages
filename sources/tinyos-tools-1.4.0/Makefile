@@ -5,7 +5,7 @@ PACKAGES_DIR = $(PACKAGES_TOP_DIR)/$(ARCH_TYPE)
 
 TOOLS_NAME = tinyos-tools
 TOOLS_VERSION = 1.4.0
-CVS_TAG = rc_6_tinyos_2_1_1
+CVS_TAG = release_tools_1_4_0_3
 
 all: download compile fix-paths package
 

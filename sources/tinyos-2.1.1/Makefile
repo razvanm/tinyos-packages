@@ -5,8 +5,7 @@ PACKAGES_DIR = $(PACKAGES_TOP_DIR)/$(ARCH_TYPE)
 
 NAME = tinyos
 VERSION = 2.1.1
-#CVS_TAG = release_tinyos_2_1_0_0
-CVS_TAG = rc_6_tinyos_2_1_1
+CVS_TAG = release_tinyos_2_1_1_3
 FULL_NAME = $(NAME)-$(VERSION)
 
 all: download extract do-copy package
